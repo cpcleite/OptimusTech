@@ -1,0 +1,44 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fundo-depo);
+    border-radius: 1rem;
+    padding: 4rem;
+    margin: 0 7rem 4rem;
+}
+
+.depo__titulo {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--vermelho);
+    text-align: center;
+}
+
+.depo__texto {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--preto);
+    text-align: center;
+    margin: 1rem 0rem 2rem;
+}
+
+.depo__nome {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--preto);
+    text-align: center;
+    margin: 1rem 4rem 0;
+}
+
+.depo__cargo {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--cinza-claro);
+    text-align: center;
+}

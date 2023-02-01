@@ -1,0 +1,121 @@
+.vagas {
+    padding: 6rem 0;
+}
+
+/* Vagas talentos */
+
+.vagas__talentos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 5rem;
+    row-gap: 2rem;
+}
+
+.vagas__talentos__heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 4rem;
+}
+
+.vagas__talentos__heading__badge {
+    color: var(--vermelho);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    align-self: center;
+    padding: 0.25rem 0.75rem;
+    background: var(--fundo-badge);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.vagas__talentos__heading__procurando {
+    color: var(--preto);
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vagas__talentos__heading__texto {
+    color: var(--preto);
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vagas__talentos__img {
+    margin: 0 2rem;
+}
+
+/* Vagas abertas */
+
+.vagas__abertas {
+    display: flex;
+    flex-direction: column;
+    padding: 0 21rem;
+}
+
+.vagas__abertas__area {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.vagas__abertas__area--titulo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    color: var(--preto);
+    margin-bottom: 2rem;
+}
+
+.vagas__abertas__area--lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.vagas__abertas__area__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    row-gap: 1.5rem;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    border: 1px solid var(--borda-cinza);
+    border-radius: 16px;
+}
+
+.vagas__abertas__area__items--titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: var(--preto);
+}
+
+.vagas__abertas__area__items--detalhes {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+
+}
+
+.vagas__abertas__area__items__detalhes--tipo {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--cinza-claro);
+}
+
+.vagas__abertas__area__items__detalhes--valor {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--cinza-claro);
+}
+
+.vagas__abertas__area__items__detalhes--valor::before {
+    content: "Faixa salarial: ";
+}

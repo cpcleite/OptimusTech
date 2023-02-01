@@ -1,11 +1,23 @@
-@import url(styles/header.css);
+@import url("styles/navbar.css");
+@import url("styles/header.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/depo.css");
+@import url("styles/oportunidades.css");
 
 :root {
     --branco: #FFFFFF;
     --vermelho: #8E2424;
     --cinza: #3A404E;
     --cinza-claro: #667085;
+    --cinza-rodape: #98A2B3;
+    --preto: #101828;
     --fonte-principal: 'Inter', sans-serif;
+    --fundo-badge: rgba(142, 36, 36, 0.05);
+    --fundo-depo: rgba(196, 25, 25, 0.03);
+    --fundo-cinza: #F9FAFB;
+    --borda-cinza: #EAECF0;
+    --borda-email: #D0D5DD;
 }
 
 body {
